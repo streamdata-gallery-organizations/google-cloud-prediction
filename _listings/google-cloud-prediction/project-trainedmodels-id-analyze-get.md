@@ -34,6 +34,7 @@ paths:
           description: OK
       tags:
       - model
+      - analysis
 definitions:
   Analyze:
     properties:
