@@ -39,6 +39,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
   /{project}/trainedmodels:
     post:
@@ -58,6 +59,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
   /{project}/trainedmodels/list:
     get:
@@ -79,6 +81,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
   /{project}/trainedmodels/{id}:
     delete:
@@ -97,6 +100,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
 x-streamrank:
   polling_total_time_average: 0

@@ -7,10 +7,10 @@ description: Google Cloud Prediction API provides a RESTful API to build Machine
   spam detection, recommendation systems, and more.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Google Cloud Prediction
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,7 +20,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/hostedmodels/{hostedModelName}/predict
-  tags: Model
+  tags: Machine Learning,Model
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/projecthostedmodelshostedmodelnamepredict-post-openapi.md
@@ -30,7 +30,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/trainedmodels
-  tags: Model
+  tags: Machine Learning,Model
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/projecttrainedmodels-post-openapi.md
@@ -40,7 +40,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/trainedmodels/list
-  tags: Model
+  tags: Machine Learning,Model
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/projecttrainedmodelslist-get-openapi.md
@@ -50,7 +50,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/trainedmodels/{id}
-  tags: Model
+  tags: Machine Learning,Model
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/projecttrainedmodelsid-delete-openapi.md
@@ -60,7 +60,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/trainedmodels/{id}
-  tags: Model
+  tags: Machine Learning,Model
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/projecttrainedmodelsid-get-openapi.md
@@ -70,7 +70,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/trainedmodels/{id}
-  tags: Model
+  tags: Machine Learning,Model
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/projecttrainedmodelsid-put-openapi.md
@@ -80,7 +80,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/trainedmodels/{id}/analyze
-  tags: Model,Analysis
+  tags: Machine Learning,Model,Analysis
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/projecttrainedmodelsidanalyze-get-postman.md
@@ -92,7 +92,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/trainedmodels/{id}/predict
-  tags: Model
+  tags: Machine Learning,Model
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/projecttrainedmodelsidpredict-post-openapi.md

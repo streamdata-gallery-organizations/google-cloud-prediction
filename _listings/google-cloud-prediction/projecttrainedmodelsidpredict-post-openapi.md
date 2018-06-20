@@ -39,6 +39,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
   /{project}/trainedmodels:
     post:
@@ -58,6 +59,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
   /{project}/trainedmodels/list:
     get:
@@ -79,6 +81,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
   /{project}/trainedmodels/{id}:
     delete:
@@ -97,6 +100,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
     get:
       summary: Model Status
@@ -114,6 +118,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
     put:
       summary: Add New Data
@@ -135,6 +140,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
   /{project}/trainedmodels/{id}/analyze:
     get:
@@ -153,6 +159,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
       - Analysis
   /{project}/trainedmodels/{id}/predict:
@@ -176,6 +183,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
 x-streamrank:
   polling_total_time_average: 0
