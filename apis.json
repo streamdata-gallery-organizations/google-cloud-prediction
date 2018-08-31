@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Google Cloud Prediction",
+	"description": "This is a repository of google cloud prediction APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/google-cloud-prediction.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://google-cloud-prediction.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Google Cloud Prediction",
+			"x-api-slug": "google-cloud-prediction",
+			"description": "Google Cloud Prediction API provides a RESTful API to build Machine Learning models. Predictions cloud-based machine learning tools can help analyze your data to add various features to your applications, such as customer sentiment analysis, spam detection, recommendation systems, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg",
+			"humanURL": "https://cloud.google.com/prediction/docs/developer-guide",
+			"baseURL": "://www.googleapis.com//prediction/v1.6/projects",
+			"tags": "Google Cloud Prediction",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Google Cloud Prediction",
+	"include": [
+		{
+			"name": "Google Cloud Prediction",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-prediction/master/_listings/google-cloud-prediction/apis.yaml"
+		}
+	]
+}

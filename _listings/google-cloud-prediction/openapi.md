@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Google Cloud Prediction
 x-complete: 1
@@ -185,4 +184,3 @@ paths:
       tags:
       - Machine Learning
       - Model
----
